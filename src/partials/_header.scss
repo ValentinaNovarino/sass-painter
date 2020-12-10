@@ -1,0 +1,41 @@
+header {
+    height: 100px;
+    width: 100%;
+    background-color: $secondary-color;
+
+    .contacts {
+        height: 40px;
+        // @include flex(flex-end, center);
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        a {
+            font-size: 12px;
+            padding: $spacing;
+            color: #989898;
+            text-decoration: none;
+        }
+    }
+
+    nav {
+        height: 60px;
+        display: flex;
+        align-items: center;
+
+        ul {
+            list-style-type: none;
+
+            li {
+                display: inline-block;
+                padding: $spacing * 1.5;
+
+                a {
+                    text-decoration: none;
+                    color: $primary-color;
+                }
+            }
+        }
+
+    }
+}
