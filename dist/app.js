@@ -12586,7 +12586,6 @@ __webpack_require__.r(__webpack_exports__);
 var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   el: '#root',
   data: {
-    headerMenuItems: ['Products', 'Brushes', 'Wacom Tablets', 'Special Offers', 'Free Trials', 'Business', 'Support', 'Learning'],
     footerProductsItems: ['Corel Painter', 'ParticleShop', 'Painter Essentials', 'Special Offers', 'Free Trials', 'All Products'],
     footerQuickLinksItems: ['Licensing', 'Tutorials & Tips', 'Webinars', 'The Painter Factory', 'Discovery Center', 'Beta Programs'],
     footerSupportItems: ['Register your product', 'Patches & Updates', 'Knowledgebase', 'Uninstall instructions', 'Contact us'],

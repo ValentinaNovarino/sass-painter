@@ -4,16 +4,6 @@ var app = new Vue (
     {
         el: '#root',
         data: {
-            headerMenuItems: [
-                'Products',
-                'Brushes',
-                'Wacom Tablets',
-                'Special Offers',
-                'Free Trials',
-                'Business',
-                'Support',
-                'Learning'
-            ],
             footerProductsItems: [
                 'Corel Painter',
                 'ParticleShop',

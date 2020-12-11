@@ -16495,6 +16495,7 @@ header nav ul {
 }
 header nav ul li {
   display: inline-block;
+  position: relative;
 }
 header nav ul li a {
   text-decoration: none;
@@ -16504,6 +16505,25 @@ header nav ul li a {
 header nav ul li a:hover {
   text-decoration: none;
   background-color: #fff;
+  color: #333;
+}
+header nav ul li:hover .dropdown {
+  display: block;
+}
+
+.dropdown {
+  display: none;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 220px;
+  background-color: #fff;
+}
+
+.dropdown li {
+  display: block;
+  padding: 10px 20px;
   color: #333;
 }
 
@@ -16550,4 +16570,9 @@ footer .footer-bottom .copyright-list ul li a {
 footer .footer-bottom .copyright-list ul li a:hover {
   text-decoration: underline;
   color: #fff;
+}
+
+main section {
+  background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg);
+  padding: 20px;
 }

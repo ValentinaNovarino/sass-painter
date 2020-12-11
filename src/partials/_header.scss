@@ -37,6 +37,7 @@ header {
 
             li {
                 display: inline-block;
+                position: relative;
 
                 a {
                     text-decoration: none;
@@ -50,8 +51,28 @@ header {
 
                     }
                 }
+
+                &:hover .dropdown {
+                    display: block;
+                }
             }
         }
 
     }
+}
+
+.dropdown {
+    display: none;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 220px;
+    background-color: $primary-color;
+}
+
+.dropdown li {
+    display: block;
+    padding: $spacing / 2 $spacing;
+    color: $secondary-color;
 }
