@@ -1,6 +1,123 @@
 main {
-    section {
+    section.download {
         background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg);
-        padding: $spacing;
+        padding: $spacing * 1.5;
+        background-position-x: 50%;
+
+        .trial {
+            padding-left: $spacing * 12;
+            color: $primary-color;
+
+            h1 {
+                font-size: 30px;
+            }
+
+            span {
+                font-size: 22px;
+            }
+
+            ul {
+                list-style-type: none;
+                padding: 0;
+
+                li {
+                    font-size: 16px;
+                    padding: $spacing / 4 0;
+
+                    i {
+                        font-size: 12px;
+                        color: #989898;
+                    }
+                }
+            }
+
+            .button {
+                margin: $spacing / 2 0;
+                padding: $spacing / 2;
+                width: 40%;
+                background-color: rgb(102, 102, 102);
+
+                &::after {
+                    clear: both;
+                    content: '';
+                    display: table;
+                }
+
+                .left {
+                    float: left;
+                    border-right: 1px solid $primary-color;
+                    padding-right: $spacing / 2;
+
+                    a {
+                        color: $primary-color;
+                        font-size: 14px;
+
+                        span {
+                            display: block;
+                            font-size: 14px;
+                        }
+                    }
+                }
+
+                .right {
+                    float: left;
+                    height: 100%;
+                    padding-left: $spacing / 2;
+                    padding-top: $spacing / 4;
+
+                    i {
+                        font-size: 30px;
+                    }
+                }
+
+            }
+        }
+
+        .buy {
+            background-color: rgba(0, 0, 0, 0.9);
+
+            .buy-top {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                span {
+                    color: $primary-color;
+                    font-size: 26px;
+                }
+            }
+
+            span {
+                color: #999999;
+                display: block;
+            }
+
+            button {
+                margin: $spacing 0;
+                padding: $spacing * 1.2 / 4 $spacing;
+                border: 1px solid #009CFF;
+                background-color: #009CFF;
+                color: $primary-color;
+            }
+
+            .offer {
+                background-color: rgb(246, 246, 246);
+                padding: $spacing / 2;
+
+                span {
+                    font-size: 18px;
+                    color: #2C2C2C;
+                }
+
+                p {
+                    color: #333333;
+                    margin: 0;
+                }
+
+                a {
+                    color: #009Cff;
+                }
+            }
+        }
     }
 }

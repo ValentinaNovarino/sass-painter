@@ -16572,7 +16572,101 @@ footer .footer-bottom .copyright-list ul li a:hover {
   color: #fff;
 }
 
-main section {
+main section.download {
   background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg);
-  padding: 20px;
+  padding: 30px;
+  background-position-x: 50%;
+}
+main section.download .trial {
+  padding-left: 240px;
+  color: #fff;
+}
+main section.download .trial h1 {
+  font-size: 30px;
+}
+main section.download .trial span {
+  font-size: 22px;
+}
+main section.download .trial ul {
+  list-style-type: none;
+  padding: 0;
+}
+main section.download .trial ul li {
+  font-size: 16px;
+  padding: 5px 0;
+}
+main section.download .trial ul li i {
+  font-size: 12px;
+  color: #989898;
+}
+main section.download .trial .button {
+  margin: 10px 0;
+  padding: 10px;
+  width: 40%;
+  background-color: #666666;
+}
+main section.download .trial .button::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+main section.download .trial .button .left {
+  float: left;
+  border-right: 1px solid #fff;
+  padding-right: 10px;
+}
+main section.download .trial .button .left a {
+  color: #fff;
+  font-size: 14px;
+}
+main section.download .trial .button .left a span {
+  display: block;
+  font-size: 14px;
+}
+main section.download .trial .button .right {
+  float: left;
+  height: 100%;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+main section.download .trial .button .right i {
+  font-size: 30px;
+}
+main section.download .buy {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+main section.download .buy .buy-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main section.download .buy .buy-top span {
+  color: #fff;
+  font-size: 26px;
+}
+main section.download .buy span {
+  color: #999999;
+  display: block;
+}
+main section.download .buy button {
+  margin: 20px 0;
+  padding: 6px 20px;
+  border: 1px solid #009CFF;
+  background-color: #009CFF;
+  color: #fff;
+}
+main section.download .buy .offer {
+  background-color: #f6f6f6;
+  padding: 10px;
+}
+main section.download .buy .offer span {
+  font-size: 18px;
+  color: #2C2C2C;
+}
+main section.download .buy .offer p {
+  color: #333333;
+  margin: 0;
+}
+main section.download .buy .offer a {
+  color: #009Cff;
 }
