@@ -16519,6 +16519,7 @@ header nav ul li:hover .dropdown {
   left: 0;
   width: 220px;
   background-color: #fff;
+  z-index: 1;
 }
 
 .dropdown li {
