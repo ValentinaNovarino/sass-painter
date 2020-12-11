@@ -4,6 +4,15 @@ var app = new Vue (
     {
         el: '#root',
         data: {
+            navProduct: [
+                'overview',
+                'features',
+                'compare',
+                'tech specs',
+                'gallery',
+                'learning'
+            ],
+            isActive: false,
             footerProductsItems: [
                 'Corel Painter',
                 'ParticleShop',
@@ -34,7 +43,13 @@ var app = new Vue (
                 'Partner Program',
                 'Legal Information',
                 'EULA'
-            ]
+            ],
+            itemIndex: 0,
+        },
+        methods: {
+            changeClass(i) {
+                this.itemIndex = i;
+            },
         }
     }
 )

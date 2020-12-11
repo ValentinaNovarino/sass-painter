@@ -182,12 +182,24 @@
                                 <div class="offer">
                                     <span class="text-uppercase">limited-time offer</span>
                                     <p>FREE Animations Essentials Brush Pack ($19.99 value)</p>
-                                    <a href="#">Learn More</a>
+                                    <a href="#">Learn More
+
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
+                <nav id="product-nav" class="text-uppercase">
+                    <div class="container">
+                        <ul>
+                            <li v-for="(item, index) in navProduct"
+                            @click='changeClass(index)' :class='index == itemIndex ? "active" : ""'>
+                                <a>{{ item }}</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </main>
             <footer>
                 <div class="footer-top">

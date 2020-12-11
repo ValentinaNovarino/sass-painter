@@ -16671,3 +16671,25 @@ main section.download .buy .offer p {
 main section.download .buy .offer a {
   color: #009Cff;
 }
+main nav {
+  background-color: #ececec;
+}
+main nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+main nav ul li {
+  padding: 10px 24px;
+  display: inline-block;
+}
+main nav ul li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+}
+main .active {
+  background-color: #fff;
+  color: black;
+  border-bottom: 3px solid black;
+}
