@@ -16504,6 +16504,49 @@ header nav ul li a:hover {
   color: #101010;
 }
 
-footer {
-  padding: 20px;
+footer .footer-top {
+  background-color: #ececec;
+  padding: 60px 0;
+}
+footer .footer-top ul {
+  list-style-type: none;
+  padding: 0;
+}
+footer .footer-top ul a {
+  font-size: 12px;
+  color: #4d4d4d;
+}
+footer .footer-top ul a:hover {
+  text-decoration: underline;
+}
+footer .footer-top .social {
+  background-color: yellow;
+  height: 30px;
+}
+footer .footer-bottom {
+  background-color: #1e1e1e;
+  padding: 20px 0;
+}
+footer .footer-bottom img {
+  margin: 0 10px;
+}
+footer .footer-bottom .copyright-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+footer .footer-bottom .copyright-list ul {
+  list-style-type: none;
+}
+footer .footer-bottom .copyright-list ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+footer .footer-bottom .copyright-list ul li a {
+  font-size: 12px;
+  color: #4d4d4d;
+}
+footer .footer-bottom .copyright-list ul li a:hover {
+  text-decoration: underline;
+  color: #fff;
 }

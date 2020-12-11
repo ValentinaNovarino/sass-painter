@@ -1,3 +1,61 @@
 footer {
-    padding: $spacing;
+
+    .footer-top {
+        background-color: rgb(236, 236, 236);
+        padding: $spacing * 3 0;
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+
+            a {
+                font-size: 12px;
+                color: rgb(77, 77, 77);
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .social {
+            background-color: yellow;
+            height: 30px;
+        }
+    }
+
+    .footer-bottom {
+        background-color: #1e1e1e;
+        padding: $spacing 0;
+
+        img {
+            margin: 0 $spacing / 2;
+        }
+
+        .copyright-list {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            ul {
+                list-style-type: none;
+
+                li {
+                    display: inline-block;
+                    padding-right: $spacing;
+
+                    a {
+                        font-size: 12px;
+                        color: rgb(77, 77, 77);
+
+                        &:hover {
+                            text-decoration: underline;
+                            color: $primary-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }
