@@ -15,6 +15,15 @@ header {
             padding: $spacing;
             color: #989898;
             text-decoration: none;
+
+            &:hover {
+                color: $primary-color;
+                text-decoration: underline;
+            }
+
+            i {
+                color: rgb(0, 156, 255);
+            }
         }
     }
 
@@ -25,14 +34,22 @@ header {
 
         ul {
             list-style-type: none;
+            margin: 0;
 
             li {
                 display: inline-block;
-                padding: $spacing * 1.5;
 
                 a {
                     text-decoration: none;
+                    padding: $spacing * 1.1 $spacing;
                     color: $primary-color;
+
+                    &:hover {
+                        text-decoration: none;
+                        background-color: $primary-color;
+                        color: $secondary-color;
+
+                    }
                 }
             }
         }
