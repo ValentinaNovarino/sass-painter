@@ -1,7 +1,7 @@
 footer {
 
     .footer-top {
-        background-color: rgb(236, 236, 236);
+        background-color: $secondary-background;
         padding: $spacing * 3 0;
 
         ul {
@@ -9,7 +9,6 @@ footer {
             padding: 0;
 
             a {
-                font-size: 12px;
                 color: rgb(77, 77, 77);
 
                 &:hover {
@@ -25,7 +24,7 @@ footer {
     }
 
     .footer-bottom {
-        background-color: #1e1e1e;
+        background-color: $primary-background;
         padding: $spacing 0;
 
         img {
@@ -45,7 +44,6 @@ footer {
                     padding-right: $spacing;
 
                     a {
-                        font-size: 12px;
                         color: rgb(77, 77, 77);
 
                         &:hover {

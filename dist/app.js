@@ -12583,6 +12583,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
 
+var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
+  el: '#root',
+  data: {
+    headerMenuItems: ['Products', 'Brushes', 'Wacom Tablets', 'Special Offers', 'Free Trials', 'Business', 'Support', 'Learning'],
+    footerProductsItems: ['Corel Painter', 'ParticleShop', 'Painter Essentials', 'Special Offers', 'Free Trials', 'All Products'],
+    footerQuickLinksItems: ['Licensing', 'Tutorials & Tips', 'Webinars', 'The Painter Factory', 'Discovery Center', 'Beta Programs'],
+    footerSupportItems: ['Register your product', 'Patches & Updates', 'Knowledgebase', 'Uninstall instructions', 'Contact us'],
+    footerAboutCorelItems: ['Company information', 'Newsroom', 'Careers', 'Partner Program', 'Legal Information', 'EULA']
+  }
+});
 
 /***/ }),
 

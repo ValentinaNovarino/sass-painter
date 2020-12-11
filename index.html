@@ -14,25 +14,25 @@
                     <div class="row">
                         <div class="contacts col-12">
                             <span>
-                                <a href="#">
+                                <a href="#" class="small">
                                     <i class="fas fa-phone"></i>
                                     1-877-582-6735
                                 </a>
                             </span>
                             <span>
-                                <a href="#">
+                                <a href="#" class="small">
                                     <i class="fas fa-comment-alt"></i>
                                     Chat
                                 </a>
                             </span>
                             <span>
-                                <a href="#">
+                                <a href="#" class="small">
                                     <i class="fas fa-user-alt"></i>
                                     Sign-in
                                 </a>
                             </span>
                             <span>
-                                <a href="#">
+                                <a href="#" class="small">
                                     <i class="fas fa-shopping-cart"></i>
                                     Cart
                                 </a>
@@ -51,29 +51,8 @@
                             </div>
                             <div class="header-menu">
                                 <ul>
-                                    <li>
-                                        <a href="#"></a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Brushes</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Wacom Tablets</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Special Offers</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Free Trials</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Business</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Support</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Learning</a>
+                                    <li v-for="item in headerMenuItems">
+                                        <a href="#">{{ item }}</a>
                                     </li>
                                 </ul>
                             </div>
@@ -81,6 +60,9 @@
                     </div>
                 </div>
             </header>
+            <main>
+
+            </main>
             <footer>
                 <div class="footer-top">
                     <div class="container">
@@ -90,34 +72,9 @@
                                     <div class="box-1 col-3">
                                         <h4>Products</h4>
                                         <ul>
-                                            <li>
-                                                <a href="#">
-                                                    Corel Painter
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    ParticleShop
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    Painter Essentials
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    Special Offers
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    Free Trials
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    All Products
+                                            <li v-for="item in footerProductsItems">
+                                                <a href="#" class="small">
+                                                    {{ item }}
                                                 </a>
                                             </li>
                                         </ul>
@@ -125,34 +82,9 @@
                                     <div class="box-2 col-3">
                                         <h4>Quick Links</h4>
                                         <ul>
-                                            <li>
-                                                <a href="#">
-                                                    Licensing
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    Tutorials & Tips
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    Webinars
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    The Painter Factory
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    Discovery Center
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    Beta Programs
+                                            <li v-for="item in footerQuickLinksItems">
+                                                <a href="#" class="small">
+                                                    {{ item }}
                                                 </a>
                                             </li>
                                         </ul>
@@ -160,29 +92,9 @@
                                     <div class="box-3 col-3">
                                         <h4>Support</h4>
                                         <ul>
-                                            <li>
-                                                <a href="#">
-                                                    Register your product
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    Patches & Updates
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    Knowledgebase
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    Uninstall instructions
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    Contact us
+                                            <li v-for="item in footerSupportItems">
+                                                <a href="#" class="small">
+                                                    {{ item }}
                                                 </a>
                                             </li>
                                         </ul>
@@ -190,34 +102,9 @@
                                     <div class="box-4 col-3">
                                         <h4>About Corel</h4>
                                         <ul>
-                                            <li>
-                                                <a href="#">
-                                                    Company information
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    Newsroom
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    Careers
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    Partner Program
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    Legal Information
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    EULA
+                                            <li v-for="item in footerAboutCorelItems">
+                                                <a href="#" class="small">
+                                                    {{ item }}
                                                 </a>
                                             </li>
                                         </ul>
@@ -243,22 +130,22 @@
                                     <div class="copyright-list col-7">
                                         <ul>
                                             <li>
-                                                <a href="#">
+                                                <a href="#" class="small">
                                                     Terms of Use
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <a href="#" class="small">
                                                     Privacy
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <a href="#" class="small">
                                                     Cookies
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <a href="#" class="small">
                                                     Copyright 2020 Corel Corporation. All rights reserved.
                                                 </a>
                                             </li>
@@ -272,6 +159,6 @@
             </footer>
         </div>
 
-        <script src="app.js" charset="utf-8"></script>
+        <script src="dist/app.js" charset="utf-8"></script>
     </body>
 </html>
